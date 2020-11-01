@@ -9,7 +9,7 @@ Applications/ platforms used: Cumul.io
 ### Spatial Analysis 
 File name: UKIP and immigrant presence analysis.pdf (please download to view pdf)
 Description: An analysis on the relationship between non-EU passport holder presence at the constituency level and support for the UK Independence Party in 2015 UK General Elections using the Spatial Durbin (SD) model. The regression shows that presence of non-UK passport holder is positively correlated with support for UKIP.<br> 
-Applications/ platforms used: R, arcGIS, LaTex
+Applications/ platforms used: R, ArcGIS, LaTex
 
 ### Economic Analysis
 File name: Embrace with Caution_ Singapore's digital growth path and its central bank _ LSE International Development.pdf
