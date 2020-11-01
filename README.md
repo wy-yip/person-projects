@@ -1,5 +1,5 @@
 # personal-projects
-A folder of past projects on visualization, financial, spatial and economic analyses.
+See my past projects on visualization, financial, spatial and economic analyses.
 
 ### Visualization
 File name: [Vietnam Dashboard.pdf](https://github.com/wy-yip/personal-projects/blob/main/Vietnam%20Dashboard.pdf) <br>
