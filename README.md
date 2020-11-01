@@ -2,7 +2,7 @@
 A folder of past projects on visualization, financial, spatial and economic analyses.
 
 ### Visualization
-File name: [Vietnam Dashboard.pdf](Vietnam Dashboard.pdf) <br>
+File name: [Vietnam Dashboard.pdf](https://github.com/wy-yip/personal-projects/blob/main/Vietnam%20Dashboard.pdf) <br>
 Description: A dashboard on Vietnam's macroeconomic and property market statistics.<br>
 Applications/ platforms used: Cumul.io
 
