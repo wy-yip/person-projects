@@ -1,5 +1,6 @@
 # personal-projects
-See my past projects on visualization, financial, spatial and economic analyses. Contact me at wingyan.yippy@gmail.com if my skillset could be of any use to your organization.
+See my past projects on visualization, financial, spatial and economic analyses. <br>
+Contact: wingyan.yippy@gmail.com
 
 ### Visualization
 File name: [Vietnam Dashboard.pdf](https://github.com/wy-yip/personal-projects/blob/main/Vietnam%20Dashboard.pdf) <br>
