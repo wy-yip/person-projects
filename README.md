@@ -5,7 +5,7 @@ Contact: wingyan.yippy@gmail.com
 ### Visualization
 File name: [Vietnam Dashboard.pdf](https://github.com/wy-yip/personal-projects/blob/main/Vietnam%20Dashboard.pdf) <br>
 Description: A dashboard on Vietnam's macroeconomic and property market statistics. Data blurred to protect company's intellectual property. <br>
-Applications/ platforms used: Cumul.io
+Applications/ platforms used: Cumul.io, Python, ArcGIS
 
 ### Spatial Analysis 
 File name: [UKIP and immigrant presence analysis.pdf](https://github.com/wy-yip/personal-projects/blob/main/UKIP%20and%20immigrant%20presence%20analysis.pdf) (please download to view pdf) <br>
