@@ -5,7 +5,12 @@ Contact: wingyan.yippy@gmail.com
 ### Visualization
 File name: [Vietnam Dashboard.pdf](https://github.com/wy-yip/personal-projects/blob/main/Vietnam%20Dashboard.pdf) <br>
 Description: A dashboard on Vietnam's macroeconomic and property market statistics. Data blurred to protect company's intellectual property. <br>
-Applications/ platforms used: Cumul.io, Python, ArcGIS
+Applications/ platforms used: Cumul.io, Python, ArcGIS <br>
+
+### Visual Story Telling
+File name: [Infosys Coding Challenge Presentation.pdf](https://github.com/wy-yip/personal-projects/blob/main/Infosys%20Coding%20Challenge%20Presentation.pdf) (please download to view pdf) <br>
+Description: A presentation for a coding challenge. We used financial and macroeconomic data to explain why the US Dollar appreciated in the 2007-08 Financial Crisis. We won the overall prize as well as the best idea prize. <br>
+Applications/ platforms used: Python, Canvas
 
 ### Spatial Analysis 
 File name: [UKIP and immigrant presence analysis.pdf](https://github.com/wy-yip/personal-projects/blob/main/UKIP%20and%20immigrant%20presence%20analysis.pdf) (please download to view pdf) <br>
