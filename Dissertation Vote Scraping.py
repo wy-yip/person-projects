@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 # load necessary libraries
 import pandas as pd
 import codecs 
@@ -18,9 +15,6 @@ import re
 import string
 import os
 import csv
-
-
-# In[85]:
 
 
 dc_names = 'https://www.elections.gov.hk/dc2019/eng/results_hk.html'
@@ -47,13 +41,9 @@ for table in tables:
             constituency_names.append(string.capwords(constituency))
 
 
-# In[86]:
-
 
 print(constituency_names)
 
-
-# In[3]:
 
 
 urls = []
@@ -65,9 +55,6 @@ for constituency in constituencies_web:
     
 print(urls)
     
-
-
-# In[80]:
 
 
 constituencies = []
@@ -117,9 +104,6 @@ for url in urls:
 print(constituencies, parties, candidates, votes)
 
 
-# In[15]:
-
-
 constituencies = [re.sub('\_', '', x) for x in constituencies]
 
 constituencies = [x.rstrip() for x in constituencies]
@@ -138,9 +122,6 @@ wiki_vote.to_csv(r'C:\Users\user\Documents\2019-2020\dissertation\dissertation\v
 try1 = pd.Series(constituency_names, name = '19constituencies')
 # notin = np.logical_not(wiki_vote['constituencies'].isin(constituency_names))
 try1[np.logical_not(try1.isin(wiki_vote['constituencies']))]
-
-
-# In[6]:
 
 
 # scrape 2015 results
@@ -178,8 +159,6 @@ for row in rows:
             winner = cells[1].text.strip()
             winners15.append(string.capwords(winner))
 
-
-# In[4]:
 
 
 # scrape 2011 results 
@@ -222,28 +201,6 @@ for row in rows:
             winner = cells[1].text.strip()
             winners11.append(string.capwords(winner))
 
-
-# In[5]:
-
-
-
-
-
-# In[51]:
-
-
-# # opening the csv file in 'w+' mode 
-# file = open(r'C:\Users\user\Documents\2019-2020\dissertation\dissertation\winners15.csv', 'w+', newline ='') 
-  
-# # writing the data into the file 
-# with file:     
-#     write = csv.writer(file) 
-#     write.writerows(winners15) 
-
-
-# In[7]:
-
-
 # create a candidate list for 2019
 # https://stackoverflow.com/questions/62031303/how-to-scrape-data-with-merged-cells
 
@@ -281,9 +238,6 @@ for tr in rows:
 print(CACODE19, constituency19, candidatenames, votes)
 
 
-# In[9]:
-
-
 zippedList19 = list(zip(CACODE19, constituency19, candidatenames, votes))
 
 results19 = pd.DataFrame(zippedList19, columns = ['CACODE19' , 'constituency19', 'candidatenames', 'votes'], index=range(len(votes)))[1:]
@@ -292,9 +246,6 @@ results19[1:].to_csv(r'C:\Users\user\Documents\2019-2020\dissertation\dissertati
          index = False, header = True)
 
 
-
-
-# In[16]:
 
 
 # check if candidate has been winner last term 
@@ -306,9 +257,6 @@ candidates['winner_15'] = candidates['candidatenames'].isin(winners15)
 candidates['winner_11'] = candidates['candidatenames'].isin(winners11)
 
 print(candidates)
-
-
-# In[29]:
 
 
 candidates['winnerstreak'] = np.where(candidates['affiliation'] == 'pro-establishment' & 
@@ -323,9 +271,6 @@ candidates.to_csv(r'C:\Users\user\Documents\2019-2020\dissertation\dissertation\
          index = False, header = True)
 
 
-# In[12]:
-
-
 # use results19 as main table
 # join to vote wiki for political party
 results19 = results19.merge(wiki_vote, left_on=['constituency19', 'votes'], right_on = ['constituencies', 'votes'],how = 'left')
@@ -335,9 +280,6 @@ results19.drop(['constituencies', 'candidates'], axis=1, inplace=True)
 results19.loc[results19['constituency19'] == 'Lei Tung Ii', 'parties'] = ['Democratic', 'DAB']
 
 print(results19.loc[results19['constituency19'] == 'Lei Tung Ii'])
-
-
-# In[332]:
 
 
 results19['votes'] = pd.to_numeric(results19['votes'])
@@ -350,10 +292,6 @@ results19['voteshare'] = results19['votes']/ results19['totalvotes']
 
 print(results19)
  
-
-
-# In[335]:
-
 
 # choi g keung's file
 
@@ -371,15 +309,8 @@ results19 = results19.drop([col for col in results19.columns if '_y' in col],axi
 print(results19)
 
 
-# In[334]:
-
-
 results19 = results19.merge(choi_vote[['CACODE', 'votes', 'affiliation', 'sex', 'newbie']],
                       left_on = ['CACODE19', 'votes'], right_on = ['CACODE', 'votes'], how = 'left')
-
-
-# In[336]:
-
 
 print(results19.loc[results19['parties'] == 'Independent', 'affiliation'])
 
