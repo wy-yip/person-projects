@@ -270,25 +270,3 @@ candidates['winnerstreak'] = np.select(condition, values)
 candidates.to_csv(r'C:\Users\user\Documents\2019-2020\dissertation\dissertation\candidate_compiled.csv',
          index = False, header = True)
 
-
-# use results19 as main table
-# join to vote wiki for political party
-results19 = results19.merge(wiki_vote, left_on=['constituency19', 'votes'], right_on = ['constituencies', 'votes'],how = 'left')
-
-results19.drop(['constituencies', 'candidates'], axis=1, inplace=True)
-
-results19.loc[results19['constituency19'] == 'Lei Tung Ii', 'parties'] = ['Democratic', 'DAB']
-
-print(results19.loc[results19['constituency19'] == 'Lei Tung Ii'])
-
-
-results19['votes'] = pd.to_numeric(results19['votes'])
-
-votetotal = results19.groupby(['constituency19']).agg(totalvotes = pd.NamedAgg(column='votes', aggfunc = 'sum'),
-                                                      contestants = pd.NamedAgg(column = 'votes',aggfunc = 'count')).reset_index()
-
-results19 = results19.merge(votetotal, on = 'constituency19', how = 'left')
-results19['voteshare'] = results19['votes']/ results19['totalvotes']
-
-print(results19)
- 
