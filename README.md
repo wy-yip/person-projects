@@ -4,7 +4,7 @@ Contact: wingyan.yippy@gmail.com
 
 ### Data Journalism
 File name: [Revealed - 8 graphs to see how much Sadiq Khan delivered on London's housing.pdf](https://github.com/wy-yip/personal-projects/blob/main/Revealed%20-%208%20graphs%20to%20see%20how%20much%20Sadiq%20Khan%20delivered%20on%20London's%20housing.pdf) <br>
-Description: An article on the Mayor of London's progress in solving the city's housing crisis, data visualised from official sources. Originally published on Propeterra resource center(https://www.propeterra.com/resource-center/revealed-8-graphs-see-how-much-sadiq-khan-delivered-on-londons-housing). <br>
+Description: An article on the Mayor of London's progress in solving the city's housing crisis, data visualised from official sources. Originally published on [Propeterra resource center](https://www.propeterra.com/resource-center/revealed-8-graphs-see-how-much-sadiq-khan-delivered-on-londons-housing). <br>
 Applications/ platforms used: Python <br>
 
 ### Visualization
