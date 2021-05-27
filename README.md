@@ -15,7 +15,7 @@ Applications/ platforms used: Cumul.io, Python, ArcGIS <br>
 ### Visual Story Telling
 File name: [Infosys Coding Challenge Presentation.pdf](https://github.com/wy-yip/personal-projects/blob/main/Infosys%20Coding%20Challenge%20Presentation.pdf) (please download to view pdf) <br>
 Description: A presentation for a coding challenge. We used financial and macroeconomic data to explain why the US Dollar appreciated in the 2007-08 Financial Crisis. Triaging our skills in statistics, economics and coding, we won the overall prize as well as the best idea prize. <br>
-Applications/ platforms used: Python, Canvas <br>
+Applications/ platforms used: Python, Canva <br>
 
 ### Spatial Analysis 
 File name: [UKIP and immigrant presence analysis.pdf](https://github.com/wy-yip/personal-projects/blob/main/UKIP%20and%20immigrant%20presence%20analysis.pdf) (please download to view pdf) <br>
