@@ -4,7 +4,7 @@ Contact: wingyan.yippy@gmail.com
 
 ### Product Analysis
 File name: [gobike_analysis_jynb.ipynb](https://github.com/wy-yip/portfolio/blob/main/gobike_analysis_jynb.ipynb) <br>
-Description: A preliminary analysis on the Ford GoBike scheme in San Francisco Bay Area using a public dataset hosted on Google Big Query. Recommended acquisition, expansion and pricing strategies. Presentation deck available [here](https://github.com/wy-yip/portfolio/blob/main/gobike_analysis_deck.pdf) <br>
+Description: A preliminary analysis on the Ford GoBike scheme in San Francisco Bay Area using a public dataset hosted on Google Big Query. Recommended acquisition, expansion and pricing strategies. Presentation deck available [here](https://github.com/wy-yip/portfolio/blob/main/gobike_analysis_deck.pdf). <br>
 Languages/ platform used: Python, SQL, Google BigQuery, Google Maps API, Canva <br>
 
 ### Data Journalism
@@ -17,7 +17,7 @@ File name: [Vietnam Dashboard.pdf](https://github.com/wy-yip/personal-projects/b
 Description: A dashboard on Vietnam's macroeconomic and property market statistics. Data blurred to protect company's intellectual property. <br>
 Languages/ platforms used: Cumul.io, Python, ArcGIS <br>
 
-### Visual Story Telling
+### Data Story Telling
 File name: [Infosys Coding Challenge Presentation.pdf](https://github.com/wy-yip/personal-projects/blob/main/Infosys%20Coding%20Challenge%20Presentation.pdf) (please download to view pdf) <br>
 Description: A presentation for a coding challenge. We used financial and macroeconomic data to explain why the US Dollar appreciated in the 2007-08 Financial Crisis. Triaging our skills in statistics, economics and coding, we won the overall prize as well as the best idea prize. <br>
 Languages/ platforms used: Python, Canva <br>
