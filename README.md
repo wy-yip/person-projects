@@ -1,11 +1,11 @@
 # portfolio
-See my past projects on visualization, financial, spatial and economic analyses. <br>
+See my past projects on visualization, product, financial, spatial and economic analyses. <br>
 Contact: wingyan.yippy@gmail.com
 
 ### Product Analysis
-File name: [gobike_analysis_jynb.ipynb](https://github.com/wy-yip/portfolio/blob/main/gobike_analysis_jynb.ipynb) <br>
+File name: [gobike_analysis.ipynb](https://github.com/wy-yip/portfolio/blob/main/gobike_analysis.ipynb) <br>
 Description: A preliminary analysis on the Ford GoBike scheme in San Francisco Bay Area using a public dataset hosted on Google Big Query. Recommended acquisition, expansion and pricing strategies. Presentation deck available [here](https://github.com/wy-yip/portfolio/blob/main/gobike_analysis_deck.pdf). <br>
-Languages/ platform used: Python, SQL, Google BigQuery, Google Maps API, Canva <br>
+Languages/ platforms used: Python, SQL, Google BigQuery, Google Maps API, Canva <br>
 
 ### Data Journalism
 File name: [Revealed - 8 graphs to see how much Sadiq Khan delivered on London's housing.pdf](https://github.com/wy-yip/personal-projects/blob/main/Revealed%20-%208%20graphs%20to%20see%20how%20much%20Sadiq%20Khan%20delivered%20on%20London's%20housing.pdf) <br>
